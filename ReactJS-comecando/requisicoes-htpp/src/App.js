@@ -11,7 +11,7 @@ function App() {
   //useState para armazenar os dados da API
   const [nutri, setNutri] = useState([]);
 
-  //useEffect para fazer a requisição HTTP quando o componente for montado
+   //useEffect para fazer a requisição HTTP quando o componente for montado
   useEffect(() => {
     //chamnado a API
     function loadApi(){
